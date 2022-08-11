@@ -28,6 +28,15 @@
     height: 100%;
 }
 
+#location img {
+    max-width: 100%;
+}
+
+#location {
+    background-color: #343a40;
+    color: white;
+}
+
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
 }
