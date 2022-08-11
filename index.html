@@ -11,22 +11,28 @@
 
     <title>Landing Page with Bootstrap 4.6</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="56">
     <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <img src="" alt="Logo">
             <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -92,7 +98,7 @@
     <!-- /Main-->
 
     <!-- Services -->
-    <section id="services" class="mt-4">
+    <section id="services" class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col text-center text-uppercase">
@@ -158,7 +164,7 @@
     <!-- /Services -->
 
     <!-- Location -->
-    <div id="location">
+    <div id="location" class="pt-4 pb-4">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-6 pl-0 pr-0">
@@ -187,6 +193,7 @@
             <div class="row">
                 <div class="col text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, <abbr title="attribute">attr</abbr>.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora repellendus sapiente beatae nam ut nisi amet aliquid officia necessitatibus quisquam, iste autem quam perferendis debitis neque velit, mollitia quaerat dicta culpa earum excepturi commodi, sint eum. Odit animi vel eligendi. Neque minus quae est nobis, ratione fugit blanditiis accusamus officiis voluptas nam. Non quod nobis soluta nulla consequatur veritatis natus provident fugit? Vel tenetur doloribus dicta neque hic animi a cumque repudiandae rem, minus consequatur adipisci. Nam rerum in at magnam natus fugiat incidunt quam eaque temporibus quasi omnis provident, accusamus, facere ullam distinctio suscipit ut commodi atque? Quasi, fugit.
                 </div>
             </div>
             <div class="row">
